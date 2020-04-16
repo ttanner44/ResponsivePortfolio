@@ -5,96 +5,99 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS and Style Sheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Tanner Companies</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+  <body class="bg">
+     
+    <!-- Responsive Nav Bar with Tanner Co Logo and which Expands -->     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img src="..\ResponsivePortfolio\images\Tanner Companies Inc Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-            Owner Bio<span class="name"> Tim Tanner</span>
-          </a>
+            <img src="..\ResponsivePortfolio\images\Tanner Companies Inc Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">   Owner Bio <b>  Tim Tanner</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
     </nav>
-    <main>
 
-      <div class="container"> 
-        <br>
-        <h3>About Me</h3>
-        <hr>
-      <div>
 
-      <div>
-        <div class="row">
-          <div class="col-12">
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
+    <main class="container page-center">
+      
+      <div class="row">
+
+        <div class="col-1"></div>
+        
+        <div class="col-10">
+
+              <div class="row">
+                <div class="col-12"><h4>About Me</h4><hr></div>
               </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10"></div>
+                  <div class="img"><img src="images/tanner headshot.jpg" class=" img-fluid float-left imgmax" alt="Tanner Head Shot">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                  <p>Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                  <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p></div>
+                <div class="col-1"></div>
               </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              
+              <div class="row">
+                <div class="col-12"><h4 class="header-emphasis">More Information</h4><hr></div>
+              </div>               
+        
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                <!--Social Media Buttons - Facebook, Youtube, Twitter, LinkedIN & Instagram-->  
+                        <button type="button" class="btn btn-social-icon btn-facebook btn-rounded"><i class="fa fa-facebook"></i></button> 
+                        <button type="button" class="btn btn-social-icon btn-youtube btn-rounded"><i class="fa fa-youtube"></i></button> 
+                        <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i></button> 
+                        <button type="button" class="btn btn-social-icon btn-linkedin btn-rounded"><i class="fa fa-linkedin"></i></button> 
+                        <button type="button" class="btn btn-social-icon btn-instagram btn-rounded"><i class="fa fa-instagram"></i></button> 
+                </div>
+                <div class="col-1"></div>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
+
         </div>
+        
+        <div class="col-1"></div>
+
       </div>
 
-      <div class="container"> 
-        <br>
-        <h3>For More Information</h3>
-        <hr>
-      <div>
-
-      <div class="page-content page-container" id="page-content">
-        <div class="row container d-flex justify-content-center">
-          <div class="col-md-6 grid-margin stretch-card">              
-            <div class="template-demo"> 
-              <button type="button" class="btn btn-social-icon btn-facebook btn-rounded"><i class="fa fa-facebook"></i></button> 
-              <button type="button" class="btn btn-social-icon btn-youtube btn-rounded"><i class="fa fa-youtube"></i></button> 
-              <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i></button> 
-              <button type="button" class="btn btn-social-icon btn-linkedin btn-rounded"><i class="fa fa-linkedin"></i></button> 
-              <button type="button" class="btn btn-social-icon btn-instagram btn-rounded"><i class="fa fa-instagram"></i></button> 
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+      
     
+    </main>
+
+    <!--Footer with Copyright with Link to Tanner Companies LinkedIn Co Page-->  
     <footer>
       <br><br>
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <div class="footer text-center py-3 bg-dark">© 2020 Copyright:
         <a href="https://linkedin.com/company/tanner-companies-inc"> tanner-companies.com</a>
       </div>
     </footer>
   
   
-    <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
