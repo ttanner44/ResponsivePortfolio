@@ -54,6 +54,18 @@ p {
     box-sizing: border-box;
 }
 
+.centered {
+    margin-left: 16px;
+    width: 360px;
+    text-align: center;
+    font-size: 24pt;
+    color: black;
+    background-color: tan;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 /* Index Page Only - Social Media Buttons */
 
 .btn.btn-social-icon {
