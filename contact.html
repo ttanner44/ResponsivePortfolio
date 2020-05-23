@@ -13,7 +13,7 @@
     <title>Tanner Companies</title>
   </head>
   
-  <body class="bg">
+  <body class="d-flex flex-column bg">
      
     <!-- Responsive Nav Bar with Tanner Co Logo and which Expands -->     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,15 +37,15 @@
         </div>
     </nav>
 
-    <main>
+    <!-- Responsive Contact Form -->  
+    <main id="page-content">
 
-      <div class="container"> 
-        <br>
-        <h3>Contact</h3>
-        <hr>
-      <div>
-
-      <div>
+        <div class="container"> 
+          <br>
+          <h3>Contact</h3>
+          <hr>
+        <div>
+        
         <div class="row">
           <div class="col-12">
             <form>
@@ -65,19 +65,14 @@
             </form>
           </div>
         </div>
-      </div>
-      
     </main>
     
-     <!--Footer with Copyright with Link to Tanner Companies LinkedIn Co Page-->  
-     <footer>
-      <br><br>
-      <div class="footer text-center py-3 bg-dark">© 2020 Copyright:
-        <a href="https://linkedin.com/company/tanner-companies-inc"> tanner-companies.com</a>
+    <!--Footer with Copyright with Link to Tanner Companies LinkedIn Co Page-->  
+    <footer id="sticky-footer" class="py-3 bg-dark text-white-50">
+      <div class="container text-center">
+          <span>© 2020 Copyright:<a href="https://linkedin.com/company/tanner-companies-inc"> tanner-companies.com</a></span>
       </div>
     </footer>
-  
-  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

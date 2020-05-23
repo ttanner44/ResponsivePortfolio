@@ -2,14 +2,9 @@
 body, html {
     height: 100%;
 }
-  .bg {
-    /* The image used */
+.bg {
     background-image: url("images/background.jpg");
-  
-    /* Full height */
     height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -29,14 +24,30 @@ h4 {
     max-width: 200px;
     width: auto;
 }
+
 p {
     padding-left:20px;
 }
 
-.container {
+.aboutMe {
     background-color: white; 
     padding: 20px;
-    margin: 20px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.portfolioList {
+    list-style-type:none;
+    padding-inline-start: 0px;
+}
+
+.portfolioCard {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
 }
 
 .img-section{
@@ -53,7 +64,12 @@ p {
     max-width: 400px;
     box-sizing: border-box;
 }
-
+.imgSize {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+}
 .centered {
     margin-left: 16px;
     width: 360px;
@@ -65,139 +81,34 @@ p {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-/* Index Page Only - Social Media Buttons */
-
-.btn.btn-social-icon {
-    width: 50px;
-    height: 50px;
-    padding: 0;
-}
-
-.template-demo>.btn {
-    margin-right: 0.5rem !important
-}
-
-.template-demo {
-    margin-top: 0.5rem !important
-}
-
-.btn.btn-rounded {
-    border-radius: 50px;
-    margin-right: 0.5rem !important;
-    margin-top: 0.5rem !important;
-}
-
-.btn-outline-facebook {
-    border: 1px solid #3b579d;
-    color: #3b579d
-}
-
-.btn-outline-facebook:hover {
-    background: #3b579d;
-    color: #ffffff
-}
-
-.btn-outline-youtube {
-    border: 1px solid #e52d27;
-    color: #e52d27
-}
-
-.btn-outline-twitter {
-    border: 1px solid #2caae1;
-    color: #2caae1
-}
-
-.btn-outline-linkedin {
-    border: 1px solid #0177b5;
-    color: #0177b5
-}
-
-.btn-outline-instagram {
-    border: 1px solid #dc4a38;
-    color: #dc4a38
-}
-
-.btn-outline-twitter:hover {
-    background: #2caae1;
-    color: #ffffff
-}
-
-.btn-outline-linkedin:hover {
-    background: #0177b5;
-    color: #ffffff
-}
-
-.btn-outline-youtube:hover {
-    background: #e52d27;
-    color: #ffffff
-}
-
-.btn-outline-instagram:hover {
-    background: #e52d27;
-    color: #ffffff
-}
-
-.btn-facebook {
-    background: #3b579d;
-    color: #ffffff
-}
-
-.btn-youtube {
-    background: #e52d27;
-    color: #ffffff
-}
-
-.btn-twitter {
-    background: #2caae1;
-    color: #ffffff
-}
-
-.btn-linkedin {
-    background: #0177b5;
-    color: #ffffff
-}
-
-.btn-instagram {
-    background: #dc4a38;
-    color: #ffffff
-}
-
-.btn-facebook:hover,
-.btn-facebook:focus {
-    background: #2d4278;
-    color: #ffffff
-}
-
-.btn-youtube:hover,
-.btn-youtube:focus {
-    background: #c21d17;
-    color: #ffffff
-}
-
-.btn-twitter:hover,
-.btn-twitter:focus {
-    background: #1b8dbf;
-    color: #ffffff
-}
-
-.btn-linkedin:hover,
-.btn-linkedin:focus {
-    background: #015682;
-    color: #ffffff
-}
-
-.btn-instagram:hover,
-.btn-instagram:focus {
-    background: #bf3322;
-    color: #ffffff
 }
 
 .footer {
-    position: fixed;
+    height: auto;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    font-size: 8pt;
+    color: white !important;
+    padding: 10px;
     text-align: center;
+    margin-top: auto;
  }
+
+#page-content {
+    flex: 1 0 auto;
+  }
+
+#sticky-footer {
+    flex-shrink: none;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 8pt;
+    color: white !important;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+

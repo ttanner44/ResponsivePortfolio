@@ -13,7 +13,7 @@
     <title>Tanner Companies</title>
   </head>
   
-  <body class="bg">
+  <body class="d-flex flex-column bg">
      
     <!-- Responsive Nav Bar with Tanner Co Logo and which Expands -->     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,73 +37,107 @@
         </div>
     </nav>
 
-
-    <main class="container">
+  <!-- Responsive Portfolio Page, Two columns & Three Rows --> 
+    <main id="page-content">
       
-      <div class="row">
-        <div class="col-12"><h4>Portolio</h4><hr></div>
-      </div>
-      
-      <div class='row'>
-        <div class='col-sm-1'></div>
-        <div class='col-sm-5 page-center'>
-          <div class="img"><img src="images/pic1a.jpg" class=" img-fluid float-center img-port" alt="Portfolio Pic 1">
-            <p class="centered">Word Guess</p>
-          </div>
-        </div>
-        
-        <div class='col-sm-5'>
-          <div class="img"><img src="images/pic 2a.jpg" class=" img-fluid float-center img-port" alt="Portfolio Pic 2">
-            <p class="centered">RPG Game</p>
-          </div>
-        </div>
-        <div class='col-sm-1'></div>
-      
-      </div> 
-      
-      <div class='row'>
-       
-          <div class='col-sm-1'></div>
-          <div class='col-sm-5'>
-            <div class="img"><img src="images/pic 3a.jpg" class=" img-fluid float-center img-port" alt="Portfolio Pic 3">
-              <p class="centered">Trivia Game</p>
-            </div>
-          </div>
+      <div class="container">
+        <div class = "aboutMe page-center">
+          <div class= "w-80 mx-auto"> 
+          <div class ="row">
           
-          <div class='col-sm-5'>
-            <div class="img"><img src="images/pic 4a.jpg" class=" img-fluid float-center img-port" alt="Portfolio Pic 4">
-              <p class="centered">Info Widget</p>
-            </div>
-          </div>
-          <div class='col-sm-1'></div>
+                  <div class="col-1"></div>
 
-      </div>
+                  <div class="col-10">
 
-      <div class='row'>
-        <div class='col-sm-1'></div>
-        <div class='col-sm-5'>
-          <div class="img"><img src="images/pic 5a.jpg" class=" img-fluid float-center img-port" alt="Portfolio Pic 5">
-            <p class="centered">Rock Paper Scissors</p>
-          </div>
-        </div>
+                      <div class="row">
+                        <div class="col-12"><h4>Portolio</h4><hr></div>
+                      </div> 
+                      
+                      <div class="row">
+                        <div class='col-sm-1'></div>         
+                        <div class='col-sm-10'>
+                          <div class="d-flex justify-content-around flex-wrap">
+                            <div class="p-2 portfolioCard">
+                                <ul class="portfolioList">
+                                  <li><h5>Satellite Flyover</h5></li>
+                                  <li>
+                                    <div class = "imgSize">
+                                      <img src="./images/sattelite.png" alt="Satellite Image">
+                                    </div>
+                                  </li>
+                                  <li><a href="https://ttanner44.github.io/SatelliteFlyover/">Application Link</a></li>
+                                  <li><a href="https://github.com/ttanner44/SatelliteFlyover">Github Repository Link</a></li>
+                                </ul>
+                            </div>
+                            <div class="p-2 portfolioCard">
+                              <ul class="portfolioList">
+                                <li><h5>Weather Dashboard</h5></li>
+                                <li>
+                                  <div class = "imgSize">
+                                    <img src="./images/weather.png" alt="Weather Dashboard App Image">
+                                  </div>
+                                </li>
+                                <li><a href="https://ttanner44.github.io/WeatherDashboard/">Application Link</a></li>
+                                <li><a href="https://github.com/ttanner44/WeatherDashboard">Github Repository Link</a></li>
+                              </ul>
+                            </div>
+                            <div class="p-2 portfolioCard">
+                              <ul class="portfolioList">
+                                <li><h5>Code Quiz</h5></li>
+                                <li>
+                                  <div class = "imgSize">
+                                    <img src="./images/codequiz.png" alt="Code Quiz App Image">
+                                  </div>
+                                </li>
+                                <li><a href="https://ttanner44.github.io/CodeQuiz/">Application Link</a></li>
+                                <li><a href="https://github.com/ttanner44/CodeQuiz">Github Repository Link</a></li>
+                              </ul>
+                            </div>
+                            <div class="p-2 portfolioCard">
+                              <ul class="portfolioList">
+                                <li><h5>Work Day Scheduler</h5></li>
+                                <li>
+                                  <div class = "imgSize">
+                                    <img src="./images/workday.png" alt="Work Scheduler App Image">
+                                  </div>
+                                </li>
+                                <li><a href="https://ttanner44.github.io/WorkDayScheduler/">Application Link</a></li>
+                                <li><a href="https://github.com/ttanner44/WorkDayScheduler">Github Repository Link</a></li>
+                              </ul>
+                            </div>
+                            <div class="p-2 portfolioCard">
+                              <ul class="portfolioList">
+                                <li><h5>Password Generator</h5></li>
+                                <li>
+                                  <div class = "imgSize">
+                                    <img src="./images/password.png" alt="Password App Image">
+                                  </div>
+                                </li>
+                                <li><a href="https://ttanner44.github.io/PasswordGenerator/">Application Link</a></li>
+                                <li><a href="https://github.com/ttanner44/PasswordGenerator">Github Repository Link</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class='col-sm-1'></div>
+                      </div>
+
+                  </div>
+
+                  <div class="col-1"></div>
         
-        <div class='col-sm-5'>
         </div>
-        <div class='col-sm-1'></div>
-
-    </div>
+        </div>
+      </div>
 
     </main>
 
     <!--Footer with Copyright with Link to Tanner Companies LinkedIn Co Page-->  
-    <footer>
-      <br><br>
-      <div class="footer text-center py-3 bg-dark">© 2020 Copyright:
-        <a href="https://linkedin.com/company/tanner-companies-inc"> tanner-companies.com</a>
+    <footer id="sticky-footer" class="py-3 bg-dark text-white-50">
+      <div class="container text-center">
+          <span>© 2020 Copyright:<a href="https://linkedin.com/company/tanner-companies-inc"> tanner-companies.com</a></span>
       </div>
     </footer>
-  
-  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
